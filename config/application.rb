@@ -38,5 +38,11 @@ module Rails3Template
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    # Configure generators values
+    config.generators do |g|
+      g.test_framework  :rspec, :fixture => true
+      g.fixture_replacement :factory_girl, :dir=>"spec/factories"
+    end
   end
 end
