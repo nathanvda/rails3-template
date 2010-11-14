@@ -1,22 +1,21 @@
 # Rails3-template
 
-This is a template, for use with rails3, that includes
+This is an empty rails 3 application that includes
 
 - jquery and jquery-ui
 - rspec2, factory-girl and cucumber
 - haml
 - simplecov (for ruby 1.9.2)
 
-To use this template, create a new rails project as follows:
+To use this template, copy this folder and rename it; also rename the module inside
+the `config/application.rb`.
 
-    rails new your-new-name --template=/path/to/this/template
+That should hopefully get me started quicker with each new rails 3 project :)
 
-i wonder, but it would be nice if something like
 
-    rails new you-other-new-name --template=http://github.com/nathanvda/rails3-template.git
+## To do
 
-would work?
-
+I should investigate rails 3 templates as an alternative ...
 
 
 ## Copyright
